@@ -1,0 +1,83 @@
+# General
+*.log
+*.cache
+*.tmp
+*.swp
+*.DS_Store
+Thumbs.db
+
+# PHP Composer
+/vendor/
+/composer.lock
+
+# PHPStorm and IDE files
+.idea/
+*.iml
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment files
+.env
+.env.*.local
+
+# Symfony
+/var/
+/public/bundles/
+/config/jwt/
+/translations/*.xlf~
+
+# Laravel
+/storage/*.key
+/public/storage
+/storage/logs/*.log
+/storage/framework/cache/data
+/vendor/
+
+# CodeIgniter
+/application/logs/*
+/application/cache/*
+
+# CakePHP
+/tmp/*
+/logs/*
+/vendors/*
+/plugins/*
+
+# WordPress
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/advanced-cache.php
+/wp-content/cache/
+/wp-content/backups/
+
+# Magento
+/app/etc/env.php
+/var/
+/pub/static/
+/generated/
+
+# Drupal
+/sites/default/files/
+/sites/default/settings.php
+
+# PHPUnit
+phpunit.xml
+phpunit.xml.dist
+
+# Debugging files
+*.stackdump
+*.sql
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+*.swp
+*.swo
